@@ -18,10 +18,12 @@ const Contact = () => {
                                 <h4 className='text-sm font-bold text-pink-500'><strong>Adress: </strong>Rajshahi, Bangladesh</h4>
                             </div>
                             <div className='text-left'>
-                                <input type="text" placeholder="Enter Your Name" className="input input-bordered input-secondary w-full max-w-xs bg-transparent mb-3" />
-                                <input type="text" placeholder="Enter Your Email" className="input input-bordered input-secondary w-full max-w-xs bg-transparent mb-3" />
-                                <textarea className="textarea textarea-secondary w-full max-w-xs bg-transparent mb-3" placeholder="Your Message"></textarea>
-                                <button className="btn btn-secondary block">Send Message</button>
+                                <form action="https://formsubmit.co/sm8106418@gmail.com" method="POST">
+                                    <input name='name' type="text" placeholder="Enter Your Name" className="input input-bordered input-secondary w-full max-w-xs bg-transparent mb-3" />
+                                    <input name='email' type="text" placeholder="Enter Your Email" className="input input-bordered input-secondary w-full max-w-xs bg-transparent mb-3" />
+                                    <textarea name='message' className="textarea textarea-secondary w-full max-w-xs bg-transparent mb-3" placeholder="Your Message"></textarea>
+                                    <button type='submit' className="btn btn-secondary block">Send Message</button>
+                                </form>
                             </div>
                         </div>
                     </div>
