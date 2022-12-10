@@ -16,7 +16,7 @@ const Banner = () => {
         })
     }
     return (
-            <div className="hero h-[600px] bg-black">
+            <div className="hero md:h-[600px] bg-black">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <img src={banner1} className='bg-black mb-5 h-full rounded-lg shadow-2xl'/>
                     <div>
