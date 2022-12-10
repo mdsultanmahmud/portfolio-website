@@ -1,6 +1,7 @@
 
 import React from 'react';
 import banner from '../../../assets/banner.png'
+import banner1 from '../../../assets/banner1.png'
 const Banner = () => {
     const onButtonClick = () => {
         // using Java Script method to get PDF file
@@ -15,9 +16,9 @@ const Banner = () => {
         })
     }
     return (
-            <div className="hero min-h-screen bg-black">
+            <div className="hero h-[600px] bg-black">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={banner} className='bg-black mb-5 h-full rounded-lg shadow-2xl'/>
+                    <img src={banner1} className='bg-black mb-5 h-full rounded-lg shadow-2xl'/>
                     <div>
                         <h1 className="text-5xl font-bold text-white">Hi, I am Sultan Mahmud</h1>
                         <p className="py-3 text-3xl font-semibold text-red-600">A Junior Web Developer</p>

@@ -1,0 +1,13 @@
+.img-box{
+    height: 320px;
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 3s;
+    border: 1px solid tomato;
+}
+
+.img-box:hover{
+    background-position: bottom;
+    background-color: rgba(0, 0, 0, 0.4);
+}
