@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (
-        <div>
+        <div id='skills'>
             <h1 className='text-center text-secondary font-bold text-2xl uppercase'>my skill</h1>
             <p className='font-semibold text-sm text-gray-500 text-center'>Here is my skills to represent my expertise.</p>
             <div className='grid gap-5 grid-cols-1 md:grid-cols-2 p-5 m-5'>
