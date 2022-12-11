@@ -8,12 +8,12 @@ import github from '../../../assets/github.png'
 const Banner = () => {
     const onButtonClick = () => {
         // using Java Script method to get PDF file
-        fetch('SamplePDF.pdf').then(response => {
+        fetch('Resume.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'SamplePDF.pdf';
+                alink.download = 'Resume.pdf';
                 alink.click();
             })
         })

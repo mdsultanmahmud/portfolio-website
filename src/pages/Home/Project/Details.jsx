@@ -29,7 +29,7 @@ const Details = () => {
 
             <div className='p-5 md:ml-8'>
                 <p className='my-5 text-gray-500'><strong>Description:</strong> {description}</p>
-                <h4>Feature</h4>
+                <h4 className='text-xl font-bold my-3 text-secondary'>Project Feature</h4>
                 <ul>
                     {
                         details &&
@@ -40,7 +40,7 @@ const Details = () => {
                     }
                 </ul>
                 <div className='my-4'>
-                    <h3 className='text-xl font-bold text-secondary'>Used Technology:</h3>
+                    <h3 className='text-xl font-bold text-secondary'>Used Technology</h3>
                     <p className='text-sm text-gray-500 font-semibold'><strong>Front-end: </strong>{technology.client}</p>
                     <p className='text-sm text-gray-500 font-semibold'><strong>Back-end: </strong>{technology.server}</p>
                 </div>
