@@ -34,7 +34,7 @@ const Banner = () => {
                            />
                     </p>
 
-                    <button onClick={onButtonClick} className="btn btn-secondary btn-outline">Download Resume</button>
+                    <button onClick={onButtonClick} className="btn btn-secondary btn-outline rounded-tr-3xl rounded-bl-3xl">Download Resume</button>
                 </div>
             </div>
         </div>
