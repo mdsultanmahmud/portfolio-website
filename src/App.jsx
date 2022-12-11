@@ -3,8 +3,9 @@ import MainLayout from "./layout/MainLayout"
 import Blog from "./pages/Blog/Blog"
 import Home from "./pages/Home/Home"
 import Details from "./pages/Home/Project/Details"
-
+import AOS from "aos"
 function App() {
+  AOS.init()
   const router = createBrowserRouter([
     {
       path:'/',
@@ -17,7 +18,7 @@ function App() {
         {
           path:'/details/:id',
           element:<Details></Details>,
-          loader:({params}) => fetch(`http://localhost:5000/projects/${params.id}`)
+          loader:({params}) => fetch(`https://portfolio-server-psi.vercel.app/projects/${params.id}`)
         },
         {
           path:'/blog',

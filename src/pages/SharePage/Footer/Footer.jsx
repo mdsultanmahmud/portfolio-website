@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-to-top';
-import linkedin from '../../../assets/linkedin.png'
+import linkedin from '../../../assets/link.jpg'
 import logo from '../../../assets/logo.jpg'
 const Footer = () => {
     return (

@@ -3,7 +3,7 @@ import ShowProject from './ShowProject';
 const Project = () => {
     const [projectList, setProjectList] = useState([])
     useEffect(() =>{
-        fetch('http://localhost:5000/projects')
+        fetch('https://portfolio-server-psi.vercel.app/projects')
         .then(res => res.json())
         .then(data => setProjectList(data))
     } ,[])
